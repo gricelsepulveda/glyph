@@ -1,0 +1,92 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.glyph-header {
+  background-color: $color-1;
+  height: 65px;
+  span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px!important;
+    color: $white;
+    font: {
+      size: 12px;
+      weight: 400;
+      family: 'Lato', 'Century Gothic', sans-serif;
+    }
+    text: {
+      align: center; 
+      transform: uppercase;
+    }
+  }
+}
+
+.glyph-macgarage-logo {
+  height: 30px!important;
+  display: inline-block;
+  margin-top: -10px!important;
+}
+
+.glyph-logo {
+  height: 20px!important;
+  display: inline-block;
+  margin-top: 0px!important;
+}
